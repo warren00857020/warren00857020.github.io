@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>自我介紹</title>
+    <title>個人網站</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,17 +11,27 @@
         <h1>您好，我是[你的名字]</h1>
         <p>歡迎來到我的自我介紹網站！</p>
     </header>
+    <nav>
+        <a href="#about">關於我</a>
+        <a href="#projects">專案</a>
+        <a href="#gallery">照片</a>
+        <a href="#contact">聯絡我</a>
+    </nav>
     <section id="about">
         <h2>關於我</h2>
-        <p>這裡可以介紹您的背景、興趣和專長。</p>
+        <p>在這裡介紹您的背景、興趣與專長。</p>
     </section>
-    <section id="skills">
-        <h2>技能</h2>
-        <ul>
-            <li>技能一</li>
-            <li>技能二</li>
-            <li>技能三</li>
-        </ul>
+    <section id="projects">
+        <h2>Github 專案</h2>
+        <ul id="repo-list"></ul>
+    </section>
+    <section id="gallery">
+        <h2>照片集</h2>
+        <div id="photos">
+            <img src="https://via.placeholder.com/200" alt="Photo 1">
+            <img src="https://via.placeholder.com/200" alt="Photo 2">
+            <img src="https://via.placeholder.com/200" alt="Photo 3">
+        </div>
     </section>
     <section id="contact">
         <h2>聯絡我</h2>
